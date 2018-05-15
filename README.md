@@ -2,8 +2,16 @@
 
 ## Modern JavaScript From The Beginning
 
-#### To Do List
+#### Ajax Library
+
+#### Book List
+
+#### Chuck Norris Joke Generator
 
 #### Loan Calculator
 
 #### Number guesser
+
+#### Spotify API (?)
+
+#### To Do List

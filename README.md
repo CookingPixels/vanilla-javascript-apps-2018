@@ -2,6 +2,8 @@
 
 ## Modern JavaScript From The Beginning
 
-### To Do List
+#### To Do List
 
-### Loan Calculator
+#### Loan Calculator
+
+#### Number guesser

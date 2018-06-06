@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0; /* remove scrollbar space */
+  background: transparent; /* optional: just make scrollbar invisible */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+
+  background: linear-gradient(
+    to bottom,
+    #029ded 0%,
+    #1331ab 10%,
+    #3d3739 21%,
+    #3d3739 34%,
+    #e33799 41%,
+    #fcbb83 44%,
+    #eeecef 55%,
+    #0057b1 66%,
+    #1c0c57 74%,
+    #a90172 80%,
+    #2e0352 88%,
+    #207cca 91%,
+    #7db9e8 100%
+  );
+  /* background: url("2.png") no-repeat; */
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+canvas {
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: default;
+  overflow: auto;
+}
+
+@media (max-width: 1000px) {
+}
